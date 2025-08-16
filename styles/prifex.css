@@ -1,0 +1,520 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.contain {
+  width: 1200px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 26px 70px;
+}
+
+
+.navbar_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 94px;
+}
+
+
+.navbar_link {
+/* Link */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: 0.2px;
+
+/* text */
+color: #252B42;
+
+}
+
+.navbar_link:hover {
+  color: #FA4A0C; 
+  -webkit-transition: 0.3s ; 
+  -o-transition: 0.3s ; 
+  transition: 0.3s ;
+}
+
+
+.intro {
+  background-image: url(/images/imgbanner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.intro_contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 73px 0px;
+}
+
+.intro_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+
+}
+
+.intro_toptext {
+  /* Food app */
+
+/* H3 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #F7F7F7;
+
+}
+
+.intro_title {
+  /* Why stay hungry when you can order form Bella Onojie */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+/* or 138% */
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+
+}
+
+.intro_subtext {
+  /* Download the bella onoje’s food app now on */
+
+/* H4 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* identical to box height, or 158% */
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #F7F7F7;
+
+}
+
+
+.intro_button_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+}
+
+.intro_button {
+  /* @ big button */
+
+/* Auto layout */
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+padding: 0px;
+
+
+
+/* master button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px;
+
+width: 236px;
+height: 68px;
+
+background: #FA4A0C;
+-webkit-box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+border-radius: 30px;
+
+
+
+/* H3 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: 0.1px;
+border: none;
+
+/* Light text */
+color: #FFFFFF;
+
+}
+
+.intro_button:hover {
+  opacity: 0.8;
+}
+
+.intro_button_right {
+  background-color: inherit;
+  border: 1px solid #fff;
+}
+
+.section_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -250px;
+}
+
+
+.section_hr {
+  width: 884px;
+  height: 20px;
+  border-bottom: 2px solid grey;
+  opacity: 0.5;
+}
+
+.section_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards_title {
+  /* How the app works */
+padding: 70px 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 36px;
+/* identical to box height, or 82% */
+letter-spacing: 0.1px;
+
+color: #000000;
+
+opacity: 0.8;
+
+}
+
+.section_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+.card_toptext {
+/* Create an account */
+
+width: 232px;
+height: 36px;
+
+/* H3 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: 0.1px;
+
+color: #FA4A0C;
+
+}
+
+.card_title {
+  /* Create/login to an existing account to get started */
+
+
+/* H2 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+margin: 22px 0;
+/* or 142% */
+letter-spacing: 0.2px;
+
+/* text */
+color: #252B42;
+
+}
+
+.card_subtext{
+
+/* H4 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* or 158% */
+letter-spacing: 0.2px;
+
+/* second text */
+color: #737373;
+
+}
+
+.section_card-reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  
+  -webkit-box-orient: horizontal;  
+  -webkit-box-direction: reverse;  
+      -ms-flex-direction: row-reverse;  
+          flex-direction: row-reverse;
+  margin-left: 110px;
+}
+
+.section_download {
+  background-image: url(/images/imgbanner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+.download_title {
+/* Download the app now. */
+
+/* H2 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Light text */
+color: #FFFFFF;
+
+}
+
+.download_text {
+  /* Available on your favorite store. Start your premium experience now */
+
+
+/* H4 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* identical to box height, or 158% */
+text-align: center;
+letter-spacing: 0.2px;
+margin: 20px;
+
+
+color: #FFFFFF;
+
+
+}
+
+.download_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+.download_button {
+/* second button */
+
+/* Auto layout */
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+padding: 18px 31px;
+gap: 10px;
+
+padding: 18px 31px;
+
+background: #FA4A0C;
+border-radius: 10px;
+
+border: none;
+
+
+
+/* Button */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: 0.2px;
+
+/* Light text */
+color: #FFFFFF;
+
+}
+
+.download_button:hover {
+  opacity: 0.8;
+}
+
+.download_button_right {
+  background-color: inherit;
+  border: 1px solid #FA4A0C;
+}
+
+
+.footer_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+}
+
+.footer_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.footer_icons :hover {
+  color: #FA4A0C;
+}
+
+.footer_text {
+  /* Copywright 2020 Bella Onojie.com */
+
+/* Subtitle */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-align: right;
+letter-spacing: 0.1px;
+
+/* second text */
+color: #5C5C5C;
+
+
+}
